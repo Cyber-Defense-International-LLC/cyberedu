@@ -1,3 +1,4 @@
+
 # Basic Packet Inspection : Ben K
 * LO: Students will learn the framework of data packets, how to interpret fields and headers within a data packet and how to identify potentially malicious activity via packet inspection. 
 * one week , two sessions => 4 hours "live" synchronous contact
@@ -11,7 +12,7 @@
 
 ## 1 [bridge in: connect with previous module LOs]
 * Packets: tiny messages in pieces, each piece has layers
-  * ( Ethernet frames, segments, datagrams )
+ * ( Ethernet frames, segments, datagrams )
 * Sockets ... Internet network "tubes" with numbers on both ends
   * source IP: source port -> destination IP, destination port
   * most traffic flows in both directions:
@@ -95,20 +96,20 @@ DNS: Query response: Query answer (A): 208.113.174.237
 * **Quick Exercise / Quiz** : get a pcap , open it, and answer some simple questions about it
 
 ## 5 Network analysis in cybersecurity
-*  troubleshooting++: network analysis used in cybersecurity work (red, blue, purple, etc):
+* troubleshooting++: network analysis used in cybersecurity work (red, blue, purple, etc):
   * apply network analysis tools and techniques to answer security questions
   * used in _all_ cybersecurity roles: admin, attack, audit, analysis, compliance, defence, development, operations, ... leadership
-  * just a few examples ...
+  * _just a few examples_ ...
 * blue: intrusion analysis and incident response
- * Is this system compromised, did they steal private data?
- * What does this attack technique look like "on the wire"?
+  * Is this system compromised, did they steal private data?
+  * What does this attack technique look like "on the wire"?
 * red: vulnerability analysis and exploit development, testing
- * Did I send enough As to the open port? 
- * Do I have a shell yet?
+  * Did I send enough As to the open port? 
+  * Do I have a shell yet?
 * purple (red + blue working together):  
- * Blue team, can you see when I do this (attack)? *click* How about now?
+  * Blue team, can you see when I do this (attack)? *click* How about now?
 
-## 6 Refs and Resources 
+## 6 Outlinks
 * Wireshark.org (Riverbed)
   * libpcap , snort, suricata, zeek
 * Laura Chappel books and Chris Sanders (& Jason?) PPA
